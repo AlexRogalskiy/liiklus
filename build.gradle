@@ -91,7 +91,7 @@ configure(subprojects.findAll { !it.name.startsWith("examples/") }) {
 
             dependency 'org.pf4j:pf4j:3.1.0'
 
-            dependencySet(group: 'io.rsocket.rpc', version: '0.2.19') {
+            dependencySet(group: 'io.rsocket.rpc', version: '0.3.0') {
                 entry 'rsocket-rpc-core'
                 entry 'rsocket-rpc-protobuf'
             }
